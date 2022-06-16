@@ -1,0 +1,78 @@
+.body1{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/detail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: -17px;
+}
+
+.separate{
+    display: flex;
+    margin: 20px;
+    position: fixed
+}
+
+.tohome{
+    color: #2B3784;
+    text-decoration: none;
+    border: 1px solid #2B3784;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 1rem;
+    padding: 10px;
+}
+
+.name{
+    color: #00002c;
+    text-shadow: 0.5px 0.5px whitesmoke;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid rgb(159, 141, 141);
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+.carga {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    color: #4bd9ff;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.platforms {
+    color: #4bd9ff;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin-right: 400px;
+    margin-left: 400px;
+    vertical-align: top;
+}
+
+.image {
+    border-radius: 150px;
+}

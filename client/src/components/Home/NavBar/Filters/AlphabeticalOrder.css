@@ -1,0 +1,18 @@
+.label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #338478;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.select{
+    background-color: transparent;
+    border: 2px solid #338478;
+    border-radius: 0.5rem;
+    color: #338478;
+    font-weight: bold;
+}

@@ -1,0 +1,18 @@
+.h1{
+    color: #000417;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.input{
+    color: #000417;
+    border-color: #000417;
+    background-color: rgba(0,0,0,0.1);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-top: 1px solid rgb(159, 141, 141);
+}

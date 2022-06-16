@@ -1,0 +1,54 @@
+.body{
+    background-image: url('../../images/home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center
+}
+
+.create{
+    color: #6E7271;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-top: 1px solid #6E7271;
+    border-bottom: 2px solid white;
+}
+
+.reload{
+    color: #000417;
+    background-color: transparent;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    border-top: 1px solid rgb(159, 141, 141);
+    border-bottom: 2px solid white;
+}
+
+.link{
+    color: #000417;
+    text-decoration: none;
+}
+
+.filters{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.paginated{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+}

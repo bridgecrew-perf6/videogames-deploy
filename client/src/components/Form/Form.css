@@ -1,0 +1,112 @@
+.form {
+    background-image: url(../../images/form.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tohome{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    color: #e49b18;
+    border: 1px solid #e49b18;
+    border-radius: 5px;
+    padding: 5px;
+    /* position to the left */
+    left: 30px;
+    /* position to the top */
+    top: 2px;
+}
+
+.tohome:hover{
+    background-color: #e49b18;
+    color: white;
+}
+
+.inputext{
+    background-color: rgb(171, 163, 163);
+    height: 30px;
+    border: 2px solid #e49b18;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #080808;
+}
+
+.fact{
+    margin-top: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e49b18;
+    text-shadow: 2px 2px black;
+    margin-bottom: 10px;    
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-bottom: 10px;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.genre{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid #e49b18;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px #e49b18;
+    border-radius: 20px;
+    padding: 10px;
+    width: 20rem;
+}
+
+.platform{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid #e49b18;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px #e49b18;
+    border-radius: 20px;
+    padding: 10px;
+    width: 20rem;
+}
+
+.genplat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.submit{
+    background-color: #e49b18;
+    border: none;
+    /* color: white; */
+    padding: 15px 32px;
+    text-align: center;
+    display: flex;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 310px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
